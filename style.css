@@ -47,6 +47,42 @@ body {
 }
 /*конец купить*/
 
+.post{
+  background-color: #8D8D8D;
+  width: 150vh;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+  margin-bottom: 2em;
+}
+.post div{
+  background-color: #8D8D8D;
+  width: 25vh;
+  margin-left: 1em;
+  text-align: left;
+  margin-right: auto;
+}
+.post img{
+  background-color: #8D8D8D;
+  width: 25vh;
+  margin-left: 1em;
+  text-align: left;
+  margin-right: auto;
+}
+.post h1{
+  font-size: 3.5vh;
+  text-align: left;
+  margin-left: 1em;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+.post p{
+  font-size: 2vh;
+  text-align: left;
+  margin-left: 1em;
+  margin-top: 1em;
+  margin-right: 1em;
+}
 
 /* Футер */
 footer{
