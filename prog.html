@@ -10,13 +10,16 @@
 
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="stars.css">
+    <link rel="stylesheet" type="text/css" href="slider.css">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap" rel="stylesheet">
+
 </head>
-<body style="height: 50px;">
+<body>
 	<footer>
 		<img src="logo.png" class="logoo">
 		<span class="Nick"> Maxivimax</span>
@@ -43,8 +46,24 @@
 	    <div id="stars2"></div>
 	    <div id="stars3"></div>
 	</div>
-	<div class="Centerr" align="center">
-        <div>I Need My Space</div>
+
+	<div class="slider" style="z-index: 1000000;">
+	    <div class="slider__wrapper">
+	      <div class="slider__item">
+	        <div style="height: 50vh; width: 50vh; background: orange;font-family: 'Comfortaa', cursive; font-size: 4vh;"><img src="ptzgo.png" style="width: 100%;"></div>
+	      </div>
+	      <div class="slider__item">
+	        <div style="height: 50vh; width: 50vh; background: green;font-family: 'Comfortaa', cursive; font-size: 4vh;">Тренажерка</div>
+	      </div>
+	      <div class="slider__item">
+	        <div style="height: 50vh; width: 50vh; background: violet;font-family: 'Comfortaa', cursive; font-size: 4vh;">VR Игра на Unity</div>
+	      </div>
+	      <div class="slider__item">
+	        <div style="height: 50vh; width: 50vh; background: coral;font-family: 'Comfortaa', cursive; font-size: 4vh;">Управление тепловизером</div>
+	      </div>
+	    </div>
+	    <a class="slider__control slider__control_left" role="button"></a>
+	    <a class="slider__control slider__control_right slider__control_show" role="button"></a>
 	</div>
 
 	<div id="zatemnenie">
@@ -54,6 +73,6 @@
       </div>
     </div>
 
-
+    <script src="slider.js"></script>
 </body>
 </html>
