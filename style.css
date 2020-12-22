@@ -47,6 +47,13 @@ body {
 }
 /*конец купить*/
 
+.footerPC{
+  display: block;
+}
+.mobileFooter{
+  display: none;
+}
+
 .post{
   background-color: #8D8D8D;
   width: 150vh;
@@ -402,6 +409,10 @@ a{
           transform: rotate(0deg) translate(0, 0);
 }
 
+.mobileFooterMini{
+    display: none;
+  }
+
 
 /*.back{
 }
@@ -412,3 +423,27 @@ a{
     float: left;
     z-index: 100000000;
 }*/
+
+@media only screen and (max-device-width: 720px) {
+  .footerPC{
+    display: none;
+  }
+  .mobileFooter{
+    display: block;
+  }
+  .mobileFooterMini{
+    display: none;
+  }
+}
+
+@media only screen and (max-device-width: 250px) {
+  .footerPC{
+    display: none;
+  }
+  .mobileFooter{
+    display: none;
+  }
+  .mobileFooterMini{
+    display: block;
+  }
+}
